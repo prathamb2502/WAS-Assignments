@@ -1,0 +1,30 @@
+Task 2: Findings on Wikipedia's HTML Source Code
+
+1. Metadata
+<meta charset="UTF-8">: Specifies the character encoding (UTF-8) for the webpage, ensuring compatibility with various languages.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Makes the webpage responsive by adapting its layout based on screen size.
+<meta name="description" content="Wikipedia is a free online encyclopedia...">: Provides a brief description of the page for search engines.
+<meta name="theme-color" content="#ffffff">: Sets the browser’s theme color when displaying the page.
+
+2. Headings and Semantic Elements
+<h1>: Used for the main title, “Welcome to Wikipedia.”
+<h2>: Used for subheadings like "The Free Encyclopedia."
+Semantic elements like <header>, <footer>, and <nav> organize the content, improving accessibility and readability.
+
+3. Multimedia
+<img>: Various images, such as the Wikipedia globe logo, include proper alt attributes for accessibility.
+No <video> or <audio> elements were present, as the homepage focuses on text-based information.
+
+4. Security-Relevant Tags
+Content Security Policy (CSP):
+Present in HTTP headers to restrict sources for scripts, styles, and other content, preventing cross-site scripting (XSS) attacks.
+Sandboxed Iframes:
+Some embedded components use the sandbox attribute to limit their functionality and reduce risks.
+HTTPS:
+All resources are loaded securely using HTTPS.
+
+5. CORS (Cross-Origin Resource Sharing)
+CORS headers were identified, enabling Wikipedia to load resources (like fonts) from external servers while ensuring secure cross-origin requests.
+
+6. Subresource Integrity (SRI)
+SRI attributes, such as integrity in <script> tags, were present. These ensure that external resources, such as JavaScript files, are not tampered with during delivery.

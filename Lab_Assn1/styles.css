@@ -1,0 +1,130 @@
+/* General styles */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #ffdd57; /* Bright yellow */
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for subheadings */
+h2 {
+    color: #ffeaa7; /* Soft yellow */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+h3, h4 {
+    color: #74b9ff; /* Light blue */
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin: 0 20px 20px;
+    text-align: justify;
+}
+
+/* Styling for unordered and ordered lists */
+ul, ol {
+    margin: 10px 40px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    color: #333;
+    text-align: center;
+}
+
+th {
+    background-color: #6c5ce7; /* Purple */
+    color: #fff;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #dfe6e9;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Audio and video alignment */
+audio, video {
+    display: block;
+    margin: 30px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Embedded content */
+iframe {
+    display: block;
+    margin: 30px auto;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Div container styling */
+div {
+    border: 2px solid #81ecec; /* Cyan */
+    padding: 20px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Sample paragraph styling within div */
+div p {
+    color: #2d3436; /* Dark gray */
+}
+
+/* Link styling */
+a {
+    color: #00ffcc; /* Bright teal */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffdd57; /* Bright yellow on hover */
+}
